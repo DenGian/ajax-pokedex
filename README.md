@@ -109,7 +109,7 @@ You can shuffle, move or delete elements across the document.
 
 ---
 ## Reflection time
-When project is done)
+(When project is done)
 
 ---
 ## Useful resources 

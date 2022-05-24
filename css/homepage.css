@@ -4,4 +4,29 @@ body {
   overflow-y: hidden;
 }
 
+h1 {
+  font-family: "Comic Sans MS", serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: auto;
+}
+
+#search {
+  border-radius: 45px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+}
+
+#namePokemon {
+  font-family: "Comic Sans MS", serif;
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=homepage.css.map */
