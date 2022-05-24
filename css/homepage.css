@@ -2,6 +2,7 @@ body {
   background-color: red;
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: "Comic Sans MS", serif;
 }
 
 h1 {
@@ -25,13 +26,12 @@ h1 {
   justify-content: center;
 }
 
-#namePokemon {
-  font-family: "Comic Sans MS", serif;
+#pokemon {
   display: flex;
   justify-content: center;
 }
 
-#pokemon {
+.result {
   display: flex;
   justify-content: center;
 }
