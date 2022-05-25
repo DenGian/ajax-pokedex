@@ -35,13 +35,57 @@ document.getElementById('search').addEventListener('click',async function(){ // 
         console.log(fetchResult);
         document.getElementById('preEvo').src = fetchResult.sprites.other.home.front_default;
     }
+    //1
+    if(data.sprites.other.home.front_default !== null){
+        document.getElementById('frontM').src = data.sprites.other.home.front_default;
+        document.getElementById('frontM').style.visibility = 'visible';
+    }
+    else{
+        document.getElementById('frontM').style.visibility = 'hidden';
+    }
+    //2
+    if(data.sprites.other.home.front_shiny !== null){
+        document.getElementById('shinyM').src = data.sprites.other.home.front_default;
+        document.getElementById('shinyM').style.visibility = 'visible';
+    }
+    else{
+        document.getElementById('shinyM').style.visibility = 'hidden';
+    }
+    //3
+    if(data.sprites.other.home.front_female !== null){
+        document.getElementById('frontF').src = data.sprites.other.home.front_default;
+        document.getElementById('frontF').style.visibility = 'visible';
+    }
+    else{
+        document.getElementById('frontF').style.visibility = 'hidden';
+    }
+    //4
+    if(data.sprites.other.home.front_shiny_female !== null){
+        document.getElementById('shinyF').src = data.sprites.other.home.front_default;
+        document.getElementById('shinyF').style.visibility = 'visible';
+    }
+    else{
+        document.getElementById('shinyF').style.visibility = 'hidden';
+    }
     document.getElementById('namePokemon').innerHTML = `It's: ${data.name} `; // visual display name
     document.getElementById('numberPokemon').innerHTML = `- Pokédex number: ${data.id}`; // visual display pokédex number
     document.getElementById('frontM').src = data.sprites.other.home.front_default; // front image male
     document.getElementById('shinyM').src = data.sprites.other.home.front_shiny; // front image shiny male
     document.getElementById('frontF').src = data.sprites.other.home.front_female; // front image female
     document.getElementById('shinyF').src = data.sprites.other.home.front_shiny_female; // front image shiny female
-    document.getElementById('moves').innerHTML = data.moves.map(move => move.move.name).slice(0, 5).join('_ '); // get span to display moves, fetch info form API, .slice-> (start#,end#), .join acts as separator
+    for(let i =0; i<6; i++){
+        let li = document.getElementById(`m${i}`)
+        li.innerText = data.moves[i].move.name
+    }
+    for(let i =0; i<2 ; i++){
+        let li = document.getElementById(`t${i}`)
+        li.innerText = '';
+    }
+    for(let i =0; i<data.types.length ; i++){
+        let li = document.getElementById(`t${i}`)
+        li.innerText = data.types[i].type.name
+    }
+    //document.getElementById('moves').innerHTML = data.moves.map(move => move.move.name).slice(0, 5).join('_ '); // get span to display moves, fetch info form API, .slice-> (start#,end#), .join acts as separator
     if(feedback === '132' || feedback === 'ditto'){
         document.getElementById('moves').innerHTML = data.moves[0].move.name;
     }
