@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e4b2b3-1792-4bfc-af0c-cefa3546d6e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/_result.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_namePokemon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/homepage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,8 @@
       <workItem from="1653290499234" duration="12679000" />
       <workItem from="1653310651767" duration="7503000" />
       <workItem from="1653380098190" duration="7317000" />
-      <workItem from="1653387470699" duration="11342000" />
+      <workItem from="1653387470699" duration="11475000" />
+      <workItem from="1653415505325" duration="1347000" />
     </task>
     <servers />
   </component>
