@@ -47,7 +47,8 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 ---
 
 ### To-Do (fix)
-- [] 
+- [] Styling
+- [] Eevee's 
 ---
 # Research
 ### What is an API?

@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-<img class="logo" src="images/logo.png" alt="logo">
+    <img class="logo" src="images/logo.png" alt="logo">
 </header>
 <div class="container">
     <h1>The unofficial official pokédex</h1>
@@ -36,36 +36,46 @@
     <img src="" id="shinyF" class="pokeImage" alt="ShinyF">
 </div>
 <div class="moveSet">
-  <table>
-     <tr>
-         <td>Moves</td>
-         <td>Type</td>
-     </tr>
-      <tr>
-          <td id="m0"></td>
-          <td id="t0"></td>
-      </tr>
-      <tr>
-          <td id="m1"></td>
-          <td id="t1"></td>
-      </tr>
-      <tr>
-          <td id="m2"></td>
-      </tr>
-      <tr>
-          <td id="m3"></td>
-      </tr>
-      <tr>
-          <td id="m4"></td>
-      </tr>
-      <tr>
-          <td id="m5"></td>
-      </tr>
-  </table>
+    <table>
+        <tr>
+            <td>Moves</td>
+            <td>Type</td>
+        </tr>
+        <tr>
+            <td id="m0"></td>
+            <td id="t0"></td>
+        </tr>
+        <tr>
+            <td id="m1"></td>
+            <td id="t1"></td>
+        </tr>
+        <tr>
+            <td id="m2"></td>
+        </tr>
+        <tr>
+            <td id="m3"></td>
+        </tr>
+        <tr>
+            <td id="m4"></td>
+        </tr>
+        <tr>
+            <td id="m5"></td>
+        </tr>
+    </table>
 </div>
-<div class="prevEvoClass">
-    <p>Evolve's from: <span id="namePrevEvo"></span></p>
-    <img src="" id="preEvo" alt="previous evolution">
+<div class="evolutionChain">
+    <div class="base">
+        <p><span id="baseEvo"></span></p>
+        <img src="" id="baseImage" alt="Base image">
+    </div>
+    <div class="mid">
+        <p><span id="midEvo"></span></p>
+        <img src="" id="midImage" alt="Middle image">
+    </div>
+    <div class="final">
+        <p><span id="finalEvo"></span></p>
+        <img src="" id="finalImage" alt="Final image">
+    </div>
 </div>
 <script src="script/script.js"></script>
 </body>
